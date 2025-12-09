@@ -1,6 +1,6 @@
-/* --- Path of Shadows 2.0: Net Art Rough Draft Style --- */
+/* --- Path of Shadows 2.0 --- */
 
-/* 1. Sleek/Modern (Inspired by Silver Drift & Web Stalker) */
+/* 1. Sleek/Modern */
 :root {
     /* Utilizing a near-black background and system Monospace for a digital, 'space-like' feel */
     --color-background: #111111; 
@@ -29,7 +29,7 @@ h1 {
     letter-spacing: 5px; /* Adds a dramatic, stylized feel */
 }
 
-/* Accent for key story elements or titles - mimics visual elements from Somewhere Else [cite: 16] */
+/* Accent for key story elements or titles - mimics visual elements from Somewhere Else */
 .accent-element {
     color: #FFD700; /* Gold-like color for emphasis */
     font-style: italic;
