@@ -1,0 +1,72 @@
+/* --- Path of Shadows 2.0: Net Art Rough Draft Style --- */
+
+/* 1. Sleek/Modern (Inspired by Silver Drift & Web Stalker) */
+:root {
+    /* Utilizing a near-black background and system Monospace for a digital, 'space-like' feel */
+    --color-background: #111111; 
+    --color-primary-text: #F0F0F0; 
+    --color-accent-digital: #00FFFF; /* Bright Cyan for a sleek, neon effect */
+    --font-sleek: 'Consolas', 'Monospace', monospace;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-primary-text);
+    font-family: var(--font-sleek);
+    line-height: 1.6;
+    padding: 50px;
+    margin: 0;
+}
+
+/* 2. Asian Decorative Accents (Achieved using color/typography) */
+h1 {
+    color: var(--color-accent-digital);
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    /* Uses CSS pseudo-borders for a decorative, dividing element */
+    border-bottom: 2px solid #CC6666; /* Deep Red/Coral as the Asian accent color */
+    letter-spacing: 5px; /* Adds a dramatic, stylized feel */
+}
+
+/* Accent for key story elements or titles - mimics visual elements from Somewhere Else [cite: 16] */
+.accent-element {
+    color: #FFD700; /* Gold-like color for emphasis */
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px dashed #FFD700;
+    display: inline-block;
+}
+
+/* Hyperlink Style (Essential for Hypertext & Fragmentation) */
+a:link, a:visited {
+    color: var(--color-accent-digital);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--color-accent-digital); 
+    transition: color 0.3s;
+}
+
+a:hover, a:active {
+    color: var(--color-primary-text);
+    border-bottom: 1px solid var(--color-primary-text);
+}
+
+.story-segment {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+    /* Light border to frame the content, enhancing the sleek look */
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.choices {
+    list-style: '>> '; /* Simple visual motif for choice links */
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.choices li {
+    margin-bottom: 15px;
+}
